@@ -1,14 +1,6 @@
-LIBUSBMUXD_CFLAGS := $(shell pkg-config --cflags libusbmuxd-2.0)
-LIBUSBMUXD_LDFLAGS := $(shell pkg-config --libs libusbmuxd-2.0)
-LIBIMOBILEDEVICE_CFLAGS := $(shell pkg-config --cflags libimobiledevice-1.0)
-LIBIMOBILEDEVICE_LDFLAGS := $(shell pkg-config --libs libimobiledevice-1.0)
-OPENSSL_CFLAGS := $(shell pkg-config --cflags openssl)
-OPENSSL_LDFLAGS := $(shell pkg-config --libs openssl)
-
 CC := clang
 LD := clang
-CFLAGS := -DHAVE_CONFIG_H -ILibraries/include -ILibraries/libimobiledevice -ILibraries/libimobiledevice/common -ILibraries/libimobiledevice/include $(LIBUSBMUXD_CFLAGS) $(LIBIMOBILEDEVICE_CFLAGS) $(OPENSSL_CLFAGS) -flto -O3 -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function
-LDFLAGS := $(LIBUSBMUXD_LDFLAGS) $(LIBIMOBILEDEVICE_LDFLAGS) $(OPENSSL_LDFLAGS)
+CFLAGS := $(CFLAGS) -DHAVE_CONFIG_H -ILibraries/include -ILibraries/libimobiledevice -ILibraries/libimobiledevice/common -ILibraries/libimobiledevice/include -flto -O3 -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function
 
 # path macros
 BUILD_PATH := build
@@ -31,7 +23,7 @@ default: all
 $(TARGET): $(OBJ)
 	$(LD) $(CFLAGS) $(LDFLAGS) -o $@ $^
 
-%.c.o: %.c*
+%.o: %.c*
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 $(BUILD_PATH)/%.c: $(SRC)
