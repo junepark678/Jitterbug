@@ -32,6 +32,7 @@ libimobiledevice = dependency('libimobiledevice-1.0', static: true)
 dependencies = [crypto, libusbmuxd, libimobiledevice]
 executable('jitterbugpair',
            sources,
+           include_directories: ['Libraries/include'],
            dependencies: dependencies,
            c_args: cflags,
            link_args: ldflags,
