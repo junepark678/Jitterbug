@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,74 @@
 		4B811C3A2688D54100046341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B811C382688D54100046341 /* InfoPlist.strings */; };
 		4B811C3D2688D54100046341 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B811C3B2688D54100046341 /* Localizable.strings */; };
 		4B811C402688D54100046341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B811C3E2688D54100046341 /* InfoPlist.strings */; };
+		BD4514D52C7091910052BCC0 /* house_arrest.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985836265C6E1700F9AAD4 /* house_arrest.c */; };
+		BD4514D62C7091910052BCC0 /* mobilebackup2.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98582F265C6E1700F9AAD4 /* mobilebackup2.c */; };
+		BD4514D72C7091910052BCC0 /* Key.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE98578E265C655A00F9AAD4 /* Key.cpp */; };
+		BD4514D82C7091910052BCC0 /* jsmn.c in Sources */ = {isa = PBXBuildFile; fileRef = CED7994328234D9500D38243 /* jsmn.c */; };
+		BD4514D92C7091910052BCC0 /* service.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98581A265C6E1700F9AAD4 /* service.c */; };
+		BD4514DA2C7091910052BCC0 /* hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98578C265C655A00F9AAD4 /* hashtable.c */; };
+		BD4514DB2C7091910052BCC0 /* diagnostics_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985816265C6E1700F9AAD4 /* diagnostics_relay.c */; };
+		BD4514DC2C7091910052BCC0 /* preboard.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98582E265C6E1700F9AAD4 /* preboard.c */; };
+		BD4514DD2C7091910052BCC0 /* notification_proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98582A265C6E1700F9AAD4 /* notification_proxy.c */; };
+		BD4514DE2C7091910052BCC0 /* afc.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985819265C6E1700F9AAD4 /* afc.c */; };
+		BD4514DF2C7091910052BCC0 /* misagent.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985821265C6E1700F9AAD4 /* misagent.c */; };
+		BD4514E02C7091910052BCC0 /* heartbeat.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985832265C6E1700F9AAD4 /* heartbeat.c */; };
+		BD4514E12C7091910052BCC0 /* termcolors.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF0B61428234B4800F425CB /* termcolors.c */; };
+		BD4514E22C7091910052BCC0 /* Boolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE985780265C655900F9AAD4 /* Boolean.cpp */; };
+		BD4514E32C7091910052BCC0 /* Data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE98578F265C655A00F9AAD4 /* Data.cpp */; };
+		BD4514E42C7091910052BCC0 /* libusbmuxd.c in Sources */ = {isa = PBXBuildFile; fileRef = CE9857DA265C69E600F9AAD4 /* libusbmuxd.c */; };
+		BD4514E52C7091910052BCC0 /* jplist.c in Sources */ = {isa = PBXBuildFile; fileRef = CED7994228234D9500D38243 /* jplist.c */; };
+		BD4514E62C7091910052BCC0 /* restore.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98583E265C6E1700F9AAD4 /* restore.c */; };
+		BD4514E72C7091910052BCC0 /* file_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985841265C6E1800F9AAD4 /* file_relay.c */; };
+		BD4514E82C7091910052BCC0 /* screenshotr.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985810265C6E1700F9AAD4 /* screenshotr.c */; };
+		BD4514E92C7091910052BCC0 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF0B60F28234B4800F425CB /* thread.c */; };
+		BD4514EA2C7091910052BCC0 /* userpref.c in Sources */ = {isa = PBXBuildFile; fileRef = CE9857EA265C6DF300F9AAD4 /* userpref.c */; };
+		BD4514EB2C7091910052BCC0 /* Dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE985782265C655900F9AAD4 /* Dictionary.cpp */; };
+		BD4514EC2C7091910052BCC0 /* mobileactivation.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985820265C6E1700F9AAD4 /* mobileactivation.c */; };
+		BD4514ED2C7091910052BCC0 /* Structure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE98577F265C655900F9AAD4 /* Structure.cpp */; };
+		BD4514EE2C7091910052BCC0 /* glue.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF0B60D28234B4800F425CB /* glue.c */; };
+		BD4514EF2C7091910052BCC0 /* tlv.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF0B61028234B4800F425CB /* tlv.c */; };
+		BD4514F02C7091910052BCC0 /* xplist.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985791265C655A00F9AAD4 /* xplist.c */; };
+		BD4514F12C7091910052BCC0 /* lockdown.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985822265C6E1700F9AAD4 /* lockdown.c */; };
+		BD4514F22C7091910052BCC0 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98577A265C655900F9AAD4 /* base64.c */; };
+		BD4514F32C7091910052BCC0 /* webinspector.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98582C265C6E1700F9AAD4 /* webinspector.c */; };
+		BD4514F42C7091910052BCC0 /* Integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE985785265C655900F9AAD4 /* Integer.cpp */; };
+		BD4514F52C7091910052BCC0 /* debugserver.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985813265C6E1700F9AAD4 /* debugserver.c */; };
+		BD4514F62C7091910052BCC0 /* Real.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE98577B265C655900F9AAD4 /* Real.cpp */; };
+		BD4514F72C7091910052BCC0 /* node_list.c in Sources */ = {isa = PBXBuildFile; fileRef = CE9857BA265C671B00F9AAD4 /* node_list.c */; };
+		BD4514F82C7091910052BCC0 /* property_list_service.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985835265C6E1700F9AAD4 /* property_list_service.c */; };
+		BD4514F92C7091910052BCC0 /* collection.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF0B60B28234B4800F425CB /* collection.c */; };
+		BD4514FA2C7091910052BCC0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985877265C8FD700F9AAD4 /* main.c */; };
+		BD4514FB2C7091910052BCC0 /* bytearray.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985784265C655900F9AAD4 /* bytearray.c */; };
+		BD4514FC2C7091910052BCC0 /* syslog_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985829265C6E1700F9AAD4 /* syslog_relay.c */; };
+		BD4514FD2C7091910052BCC0 /* opack.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF0B61328234B4800F425CB /* opack.c */; };
+		BD4514FE2C7091910052BCC0 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = CE9857B9265C671B00F9AAD4 /* node.c */; };
+		BD4514FF2C7091910052BCC0 /* Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE985790265C655A00F9AAD4 /* Date.cpp */; };
+		BD4515002C7091910052BCC0 /* device_link_service.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985833265C6E1700F9AAD4 /* device_link_service.c */; };
+		BD4515012C7091910052BCC0 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF0B61128234B4800F425CB /* utils.c */; };
+		BD4515022C7091910052BCC0 /* companion_proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985825265C6E1700F9AAD4 /* companion_proxy.c */; };
+		BD4515032C7091910052BCC0 /* bplist.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985781265C655900F9AAD4 /* bplist.c */; };
+		BD4515042C7091910052BCC0 /* cbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF0B61228234B4800F425CB /* cbuf.c */; };
+		BD4515052C7091910052BCC0 /* sbservices.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985830265C6E1700F9AAD4 /* sbservices.c */; };
+		BD4515062C7091910052BCC0 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = CE9857EB265C6DF300F9AAD4 /* debug.c */; };
+		BD4515072C7091910052BCC0 /* time64.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985775265C655900F9AAD4 /* time64.c */; };
+		BD4515082C7091910052BCC0 /* Uid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE985771265C655900F9AAD4 /* Uid.cpp */; };
+		BD4515092C7091910052BCC0 /* mobilebackup.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98583A265C6E1700F9AAD4 /* mobilebackup.c */; };
+		BD45150A2C7091910052BCC0 /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF0B60C28234B4800F425CB /* socket.c */; };
+		BD45150B2C7091910052BCC0 /* plist.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985772265C655900F9AAD4 /* plist.c */; };
+		BD45150C2C7091910052BCC0 /* installation_proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98582D265C6E1700F9AAD4 /* installation_proxy.c */; };
+		BD45150D2C7091910052BCC0 /* mobilesync.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985837265C6E1700F9AAD4 /* mobilesync.c */; };
+		BD45150E2C7091910052BCC0 /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE98576F265C655900F9AAD4 /* Array.cpp */; };
+		BD45150F2C7091910052BCC0 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE985779265C655900F9AAD4 /* Node.cpp */; };
+		BD4515102C7091910052BCC0 /* mobile_image_mounter.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98580F265C6E1700F9AAD4 /* mobile_image_mounter.c */; };
+		BD4515112C7091910052BCC0 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE985789265C655A00F9AAD4 /* String.cpp */; };
+		BD4515122C7091910052BCC0 /* ptrarray.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985787265C655900F9AAD4 /* ptrarray.c */; };
+		BD4515132C7091910052BCC0 /* idevice.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985811265C6E1700F9AAD4 /* idevice.c */; };
+		BD45151A2C7091C10052BCC0 /* libeverest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4514CB2C7091650052BCC0 /* libeverest.a */; };
+		BD45151B2C7091C10052BCC0 /* libmbedcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4514CC2C7091650052BCC0 /* libmbedcrypto.a */; };
+		BD45151C2C7091C10052BCC0 /* libmbedtls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4514CD2C7091650052BCC0 /* libmbedtls.a */; };
+		BD45151D2C7091C10052BCC0 /* libmbedx509.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4514C92C7091650052BCC0 /* libmbedx509.a */; };
+		BD45151E2C7091C10052BCC0 /* libp256m.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4514CA2C7091650052BCC0 /* libp256m.a */; };
 		CE312D64266997500064C43C /* SharingServicePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE312D63266997500064C43C /* SharingServicePicker.swift */; };
 		CE4DEC2C2671732F003BDC3F /* AddressUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4DEC2B2671732F003BDC3F /* AddressUtils.m */; };
 		CE4DEC2E26717E00003BDC3F /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE97FFC4267113FB007FE23E /* NetworkExtension.framework */; };
@@ -75,7 +143,6 @@
 		CE98585A265C6E1800F9AAD4 /* mobilebackup.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98583A265C6E1700F9AAD4 /* mobilebackup.c */; };
 		CE98585B265C6E1800F9AAD4 /* restore.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98583E265C6E1700F9AAD4 /* restore.c */; };
 		CE98585C265C6E1800F9AAD4 /* file_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985841265C6E1800F9AAD4 /* file_relay.c */; };
-		CE985862265C703A00F9AAD4 /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = CE985861265C703A00F9AAD4 /* OpenSSL */; };
 		CE985878265C8FD700F9AAD4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985877265C8FD700F9AAD4 /* main.c */; };
 		CE985890265C933000F9AAD4 /* bytearray.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985784265C655900F9AAD4 /* bytearray.c */; };
 		CE985891265C933000F9AAD4 /* lockdown.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985822265C6E1700F9AAD4 /* lockdown.c */; };
@@ -189,7 +256,6 @@
 		CEA02A2E26685A2B00CF57E1 /* idevice.c in Sources */ = {isa = PBXBuildFile; fileRef = CE985811265C6E1700F9AAD4 /* idevice.c */; };
 		CEA02A2F26685A2B00CF57E1 /* installation_proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = CE98582D265C6E1700F9AAD4 /* installation_proxy.c */; };
 		CEA02A3026685A2B00CF57E1 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = CE9857EB265C6DF300F9AAD4 /* debug.c */; };
-		CEA02A3226685A4B00CF57E1 /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = CEA02A3126685A4B00CF57E1 /* OpenSSL */; };
 		CEA02A39266864E300CF57E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA029DD2668592800CF57E1 /* ContentView.swift */; };
 		CEA02A3D2668693800CF57E1 /* DeviceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA02A3C2668693800CF57E1 /* DeviceDetailsView.swift */; };
 		CEA02A3F26686B6000CF57E1 /* AppItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA02A3E26686B6000CF57E1 /* AppItemView.swift */; };
@@ -279,7 +345,6 @@
 		CED7994A28234D9500D38243 /* jsmn.c in Sources */ = {isa = PBXBuildFile; fileRef = CED7994328234D9500D38243 /* jsmn.c */; };
 		CED7994B28234D9500D38243 /* jsmn.c in Sources */ = {isa = PBXBuildFile; fileRef = CED7994328234D9500D38243 /* jsmn.c */; };
 		CED7994C28234D9500D38243 /* jsmn.c in Sources */ = {isa = PBXBuildFile; fileRef = CED7994328234D9500D38243 /* jsmn.c */; };
-		CEE8B43F265C998A007728F4 /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = CEE8B43E265C998A007728F4 /* OpenSSL */; };
 		CEE8B461265CBFC2007728F4 /* libusbmuxd-stub.c in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B460265CBFC2007728F4 /* libusbmuxd-stub.c */; };
 		CEE8B468265CC57D007728F4 /* CacheStorage.c in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B467265CC57D007728F4 /* CacheStorage.c */; };
 		CEE8B475265D59C0007728F4 /* JBHostDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B474265D59C0007728F4 /* JBHostDevice.m */; };
@@ -345,6 +410,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		BD4515152C7091910052BCC0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		CE97FFD1267113FC007FE23E /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,6 +449,20 @@
 		4B811C392688D54100046341 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		4B811C3C2688D54100046341 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		4B811C3F2688D54100046341 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		BD4514BF2C70914A0052BCC0 /* libmbedtls.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedtls.a; path = "../mbedtls-3.6.0/aaaaa/mbedtls/3.6.0/lib/libmbedtls.a"; sourceTree = "<group>"; };
+		BD4514C02C70914A0052BCC0 /* libmbedcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedcrypto.a; path = "../mbedtls-3.6.0/aaaaa/mbedtls/3.6.0/lib/libmbedcrypto.a"; sourceTree = "<group>"; };
+		BD4514C12C70914A0052BCC0 /* libmbedx509.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedx509.a; path = "../mbedtls-3.6.0/aaaaa/mbedtls/3.6.0/lib/libmbedx509.a"; sourceTree = "<group>"; };
+		BD4514C22C70914A0052BCC0 /* libp256m.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libp256m.a; path = "../mbedtls-3.6.0/aaaaa/mbedtls/3.6.0/lib/libp256m.a"; sourceTree = "<group>"; };
+		BD4514C32C70914B0052BCC0 /* libeverest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libeverest.a; path = "../mbedtls-3.6.0/aaaaa/mbedtls/3.6.0/lib/libeverest.a"; sourceTree = "<group>"; };
+		BD4514C92C7091650052BCC0 /* libmbedx509.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedx509.a; path = "../mbedtls-3.6.0/xxxxx/mbedtls/3.6.0/lib/libmbedx509.a"; sourceTree = "<group>"; };
+		BD4514CA2C7091650052BCC0 /* libp256m.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libp256m.a; path = "../mbedtls-3.6.0/xxxxx/mbedtls/3.6.0/lib/libp256m.a"; sourceTree = "<group>"; };
+		BD4514CB2C7091650052BCC0 /* libeverest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libeverest.a; path = "../mbedtls-3.6.0/xxxxx/mbedtls/3.6.0/lib/libeverest.a"; sourceTree = "<group>"; };
+		BD4514CC2C7091650052BCC0 /* libmbedcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedcrypto.a; path = "../mbedtls-3.6.0/xxxxx/mbedtls/3.6.0/lib/libmbedcrypto.a"; sourceTree = "<group>"; };
+		BD4514CD2C7091650052BCC0 /* libmbedtls.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedtls.a; path = "../mbedtls-3.6.0/xxxxx/mbedtls/3.6.0/lib/libmbedtls.a"; sourceTree = "<group>"; };
+		BD4515192C7091910052BCC0 /* JitterbugPair copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "JitterbugPair copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4515242C7092C70052BCC0 /* OpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenSSL.framework; path = "../Downloads/OpenSSL (macOS) 2024-08-17 15-09-20/Products/Library/Frameworks/OpenSSL.framework"; sourceTree = "<group>"; };
+		BD45152C2C7093B30052BCC0 /* OpenSSL.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:67RAULRX93:Marcin Krzyzanowski"; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = ../Downloads/OpenSSL2/Frameworks/OpenSSL.xcframework; sourceTree = "<group>"; };
+		BD4515362C70945B0052BCC0 /* libboringssl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libboringssl.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libboringssl.tbd; sourceTree = DEVELOPER_DIR; };
 		CE312D63266997500064C43C /* SharingServicePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingServicePicker.swift; sourceTree = "<group>"; };
 		CE4DEC2A2671732F003BDC3F /* AddressUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressUtils.h; sourceTree = "<group>"; };
 		CE4DEC2B2671732F003BDC3F /* AddressUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressUtils.m; sourceTree = "<group>"; };
@@ -586,6 +674,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BD4515142C7091910052BCC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD45151A2C7091C10052BCC0 /* libeverest.a in Frameworks */,
+				BD45151B2C7091C10052BCC0 /* libmbedcrypto.a in Frameworks */,
+				BD45151C2C7091C10052BCC0 /* libmbedtls.a in Frameworks */,
+				BD45151D2C7091C10052BCC0 /* libmbedx509.a in Frameworks */,
+				BD45151E2C7091C10052BCC0 /* libp256m.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE97FFC0267113FB007FE23E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -598,7 +698,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE985862265C703A00F9AAD4 /* OpenSSL in Frameworks */,
 				CE4DEC2E26717E00003BDC3F /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -607,7 +706,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE8B43F265C998A007728F4 /* OpenSSL in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,7 +713,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA02A3226685A4B00CF57E1 /* OpenSSL in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,6 +760,7 @@
 				CEA029D92668592800CF57E1 /* Jitterbug.app */,
 				CE97FFC3267113FB007FE23E /* JitterbugTunnel.appex */,
 				CEA65ECC26C5E2CB00020562 /* Jitterbug.app */,
+				BD4515192C7091910052BCC0 /* JitterbugPair copy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -988,6 +1086,19 @@
 		CE9858C9265C934600F9AAD4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD4515362C70945B0052BCC0 /* libboringssl.tbd */,
+				BD45152C2C7093B30052BCC0 /* OpenSSL.xcframework */,
+				BD4515242C7092C70052BCC0 /* OpenSSL.framework */,
+				BD4514C32C70914B0052BCC0 /* libeverest.a */,
+				BD4514C02C70914A0052BCC0 /* libmbedcrypto.a */,
+				BD4514BF2C70914A0052BCC0 /* libmbedtls.a */,
+				BD4514CB2C7091650052BCC0 /* libeverest.a */,
+				BD4514CC2C7091650052BCC0 /* libmbedcrypto.a */,
+				BD4514CD2C7091650052BCC0 /* libmbedtls.a */,
+				BD4514C12C70914A0052BCC0 /* libmbedx509.a */,
+				BD4514C22C70914A0052BCC0 /* libp256m.a */,
+				BD4514C92C7091650052BCC0 /* libmbedx509.a */,
+				BD4514CA2C7091650052BCC0 /* libp256m.a */,
 				CE97FFC4267113FB007FE23E /* NetworkExtension.framework */,
 			);
 			name = Frameworks;
@@ -1067,7 +1178,43 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXLegacyTarget section */
+		BD4514B92C708F4F0052BCC0 /* mbedtls */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = BD4514BA2C708F4F0052BCC0 /* Build configuration list for PBXLegacyTarget "mbedtls" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/june/mbedtls;
+			dependencies = (
+			);
+			name = mbedtls;
+			passBuildSettingsInEnvironment = 1;
+			productName = mbedtls;
+		};
+/* End PBXLegacyTarget section */
+
 /* Begin PBXNativeTarget section */
+		BD4514D32C7091910052BCC0 /* JitterbugPair copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4515162C7091910052BCC0 /* Build configuration list for PBXNativeTarget "JitterbugPair copy" */;
+			buildPhases = (
+				BD4514D42C7091910052BCC0 /* Sources */,
+				BD4515142C7091910052BCC0 /* Frameworks */,
+				BD4515152C7091910052BCC0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JitterbugPair copy";
+			packageProductDependencies = (
+			);
+			productName = JitterbugPair;
+			productReference = BD4515192C7091910052BCC0 /* JitterbugPair copy */;
+			productType = "com.apple.product-type.tool";
+		};
 		CE97FFC2267113FB007FE23E /* JitterbugTunnel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE97FFCE267113FC007FE23E /* Build configuration list for PBXNativeTarget "JitterbugTunnel" */;
@@ -1101,7 +1248,6 @@
 			);
 			name = Jitterbug;
 			packageProductDependencies = (
-				CE985861265C703A00F9AAD4 /* OpenSSL */,
 			);
 			productName = Jitterbug;
 			productReference = CE985747265C635000F9AAD4 /* Jitterbug.app */;
@@ -1121,7 +1267,6 @@
 			);
 			name = JitterbugPair;
 			packageProductDependencies = (
-				CEE8B43E265C998A007728F4 /* OpenSSL */,
 			);
 			productName = JitterbugPair;
 			productReference = CE985875265C8FD700F9AAD4 /* jitterbugpair */;
@@ -1141,7 +1286,6 @@
 			);
 			name = JitterbugMac;
 			packageProductDependencies = (
-				CEA02A3126685A4B00CF57E1 /* OpenSSL */,
 			);
 			productName = JitterbugMac;
 			productReference = CEA029D92668592800CF57E1 /* Jitterbug.app */;
@@ -1177,6 +1321,9 @@
 				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = osy;
 				TargetAttributes = {
+					BD4514B92C708F4F0052BCC0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					CE97FFC2267113FB007FE23E = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -1203,7 +1350,7 @@
 			);
 			mainGroup = CE98573E265C635000F9AAD4;
 			packageReferences = (
-				CE985860265C703A00F9AAD4 /* XCRemoteSwiftPackageReference "OpenSSL" */,
+				BD4515292C7093470052BCC0 /* XCLocalSwiftPackageReference "../Downloads/OpenSSL2" */,
 			);
 			productRefGroup = CE985748265C635000F9AAD4 /* Products */;
 			projectDirPath = "";
@@ -1214,6 +1361,8 @@
 				CEA029D82668592800CF57E1 /* JitterbugMac */,
 				CE985874265C8FD700F9AAD4 /* JitterbugPair */,
 				CE97FFC2267113FB007FE23E /* JitterbugTunnel */,
+				BD4514B92C708F4F0052BCC0 /* mbedtls */,
+				BD4514D32C7091910052BCC0 /* JitterbugPair copy */,
 			);
 		};
 /* End PBXProject section */
@@ -1262,6 +1411,76 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BD4514D42C7091910052BCC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4514D52C7091910052BCC0 /* house_arrest.c in Sources */,
+				BD4514D62C7091910052BCC0 /* mobilebackup2.c in Sources */,
+				BD4514D72C7091910052BCC0 /* Key.cpp in Sources */,
+				BD4514D82C7091910052BCC0 /* jsmn.c in Sources */,
+				BD4514D92C7091910052BCC0 /* service.c in Sources */,
+				BD4514DA2C7091910052BCC0 /* hashtable.c in Sources */,
+				BD4514DB2C7091910052BCC0 /* diagnostics_relay.c in Sources */,
+				BD4514DC2C7091910052BCC0 /* preboard.c in Sources */,
+				BD4514DD2C7091910052BCC0 /* notification_proxy.c in Sources */,
+				BD4514DE2C7091910052BCC0 /* afc.c in Sources */,
+				BD4514DF2C7091910052BCC0 /* misagent.c in Sources */,
+				BD4514E02C7091910052BCC0 /* heartbeat.c in Sources */,
+				BD4514E12C7091910052BCC0 /* termcolors.c in Sources */,
+				BD4514E22C7091910052BCC0 /* Boolean.cpp in Sources */,
+				BD4514E32C7091910052BCC0 /* Data.cpp in Sources */,
+				BD4514E42C7091910052BCC0 /* libusbmuxd.c in Sources */,
+				BD4514E52C7091910052BCC0 /* jplist.c in Sources */,
+				BD4514E62C7091910052BCC0 /* restore.c in Sources */,
+				BD4514E72C7091910052BCC0 /* file_relay.c in Sources */,
+				BD4514E82C7091910052BCC0 /* screenshotr.c in Sources */,
+				BD4514E92C7091910052BCC0 /* thread.c in Sources */,
+				BD4514EA2C7091910052BCC0 /* userpref.c in Sources */,
+				BD4514EB2C7091910052BCC0 /* Dictionary.cpp in Sources */,
+				BD4514EC2C7091910052BCC0 /* mobileactivation.c in Sources */,
+				BD4514ED2C7091910052BCC0 /* Structure.cpp in Sources */,
+				BD4514EE2C7091910052BCC0 /* glue.c in Sources */,
+				BD4514EF2C7091910052BCC0 /* tlv.c in Sources */,
+				BD4514F02C7091910052BCC0 /* xplist.c in Sources */,
+				BD4514F12C7091910052BCC0 /* lockdown.c in Sources */,
+				BD4514F22C7091910052BCC0 /* base64.c in Sources */,
+				BD4514F32C7091910052BCC0 /* webinspector.c in Sources */,
+				BD4514F42C7091910052BCC0 /* Integer.cpp in Sources */,
+				BD4514F52C7091910052BCC0 /* debugserver.c in Sources */,
+				BD4514F62C7091910052BCC0 /* Real.cpp in Sources */,
+				BD4514F72C7091910052BCC0 /* node_list.c in Sources */,
+				BD4514F82C7091910052BCC0 /* property_list_service.c in Sources */,
+				BD4514F92C7091910052BCC0 /* collection.c in Sources */,
+				BD4514FA2C7091910052BCC0 /* main.c in Sources */,
+				BD4514FB2C7091910052BCC0 /* bytearray.c in Sources */,
+				BD4514FC2C7091910052BCC0 /* syslog_relay.c in Sources */,
+				BD4514FD2C7091910052BCC0 /* opack.c in Sources */,
+				BD4514FE2C7091910052BCC0 /* node.c in Sources */,
+				BD4514FF2C7091910052BCC0 /* Date.cpp in Sources */,
+				BD4515002C7091910052BCC0 /* device_link_service.c in Sources */,
+				BD4515012C7091910052BCC0 /* utils.c in Sources */,
+				BD4515022C7091910052BCC0 /* companion_proxy.c in Sources */,
+				BD4515032C7091910052BCC0 /* bplist.c in Sources */,
+				BD4515042C7091910052BCC0 /* cbuf.c in Sources */,
+				BD4515052C7091910052BCC0 /* sbservices.c in Sources */,
+				BD4515062C7091910052BCC0 /* debug.c in Sources */,
+				BD4515072C7091910052BCC0 /* time64.c in Sources */,
+				BD4515082C7091910052BCC0 /* Uid.cpp in Sources */,
+				BD4515092C7091910052BCC0 /* mobilebackup.c in Sources */,
+				BD45150A2C7091910052BCC0 /* socket.c in Sources */,
+				BD45150B2C7091910052BCC0 /* plist.c in Sources */,
+				BD45150C2C7091910052BCC0 /* installation_proxy.c in Sources */,
+				BD45150D2C7091910052BCC0 /* mobilesync.c in Sources */,
+				BD45150E2C7091910052BCC0 /* Array.cpp in Sources */,
+				BD45150F2C7091910052BCC0 /* Node.cpp in Sources */,
+				BD4515102C7091910052BCC0 /* mobile_image_mounter.c in Sources */,
+				BD4515112C7091910052BCC0 /* String.cpp in Sources */,
+				BD4515122C7091910052BCC0 /* ptrarray.c in Sources */,
+				BD4515132C7091910052BCC0 /* idevice.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE97FFBF267113FB007FE23E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1659,6 +1878,101 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BD4514BB2C708F4F0052BCC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 95J8WZ4TN8;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD4514BC2C708F4F0052BCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 95J8WZ4TN8;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD4515172C7091910052BCC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95J8WZ4TN8;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/include",
+					"$(PROJECT_DIR)/Libraries/libplist/include",
+					"$(PROJECT_DIR)/Libraries/libplist/libcnary/include",
+					"$(PROJECT_DIR)/Libraries/libplist/src",
+					"$(PROJECT_DIR)/Libraries/libusbmuxd/common",
+					"$(PROJECT_DIR)/Libraries/libusbmuxd/include",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice/include",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice-glue",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice-glue/include",
+					"\"$(SRCROOT)/../mbedtls-3.6.0/xxxxx/mbedtls/3.6.0/include\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.SideStore.JitterbugPair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BD4515182C7091910052BCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95J8WZ4TN8;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/include",
+					"$(PROJECT_DIR)/Libraries/libplist/include",
+					"$(PROJECT_DIR)/Libraries/libplist/libcnary/include",
+					"$(PROJECT_DIR)/Libraries/libplist/src",
+					"$(PROJECT_DIR)/Libraries/libusbmuxd/common",
+					"$(PROJECT_DIR)/Libraries/libusbmuxd/include",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice/include",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice-glue",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice-glue/include",
+					"\"$(SRCROOT)/../mbedtls-3.6.0/xxxxx/mbedtls/3.6.0/include\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.SideStore.JitterbugPair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		CE97FFCF267113FC007FE23E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1916,8 +2230,28 @@
 		CE98587A265C8FD700F9AAD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					x86_64,
+				);
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95J8WZ4TN8;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/include",
+					"$(PROJECT_DIR)/Libraries/libplist/include",
+					"$(PROJECT_DIR)/Libraries/libplist/libcnary/include",
+					"$(PROJECT_DIR)/Libraries/libplist/src",
+					"$(PROJECT_DIR)/Libraries/libusbmuxd/common",
+					"$(PROJECT_DIR)/Libraries/libusbmuxd/include",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice/include",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice-glue",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice-glue/include",
+					"/Users/june/mbedtls-3.6.0/aaaaa/mbedtls/3.6.0/include",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.SideStore.JitterbugPair;
 				PRODUCT_NAME = jitterbugpair;
 				SDKROOT = macosx;
 			};
@@ -1926,8 +2260,28 @@
 		CE98587B265C8FD700F9AAD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					x86_64,
+				);
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95J8WZ4TN8;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/include",
+					"$(PROJECT_DIR)/Libraries/libplist/include",
+					"$(PROJECT_DIR)/Libraries/libplist/libcnary/include",
+					"$(PROJECT_DIR)/Libraries/libplist/src",
+					"$(PROJECT_DIR)/Libraries/libusbmuxd/common",
+					"$(PROJECT_DIR)/Libraries/libusbmuxd/include",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice/include",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice-glue",
+					"$(PROJECT_DIR)/Libraries/libimobiledevice-glue/include",
+					"/Users/june/mbedtls-3.6.0/aaaaa/mbedtls/3.6.0/include",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.SideStore.JitterbugPair;
 				PRODUCT_NAME = jitterbugpair;
 				SDKROOT = macosx;
 			};
@@ -2033,6 +2387,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BD4514BA2C708F4F0052BCC0 /* Build configuration list for PBXLegacyTarget "mbedtls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4514BB2C708F4F0052BCC0 /* Debug */,
+				BD4514BC2C708F4F0052BCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4515162C7091910052BCC0 /* Build configuration list for PBXNativeTarget "JitterbugPair copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4515172C7091910052BCC0 /* Debug */,
+				BD4515182C7091910052BCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CE97FFCE267113FC007FE23E /* Build configuration list for PBXNativeTarget "JitterbugTunnel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2089,15 +2461,14 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		CE985860265C703A00F9AAD4 /* XCRemoteSwiftPackageReference "OpenSSL" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/krzyzanowskim/OpenSSL.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 1.1.180;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		BD4515292C7093470052BCC0 /* XCLocalSwiftPackageReference "../Downloads/OpenSSL2" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Downloads/OpenSSL2;
 		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
 		CEA65E7226C5E2CB00020562 /* XCRemoteSwiftPackageReference "OpenSSL" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/krzyzanowskim/OpenSSL.git";
@@ -2109,24 +2480,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CE985861265C703A00F9AAD4 /* OpenSSL */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE985860265C703A00F9AAD4 /* XCRemoteSwiftPackageReference "OpenSSL" */;
-			productName = OpenSSL;
-		};
-		CEA02A3126685A4B00CF57E1 /* OpenSSL */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE985860265C703A00F9AAD4 /* XCRemoteSwiftPackageReference "OpenSSL" */;
-			productName = OpenSSL;
-		};
 		CEA65E7126C5E2CB00020562 /* OpenSSL */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CEA65E7226C5E2CB00020562 /* XCRemoteSwiftPackageReference "OpenSSL" */;
-			productName = OpenSSL;
-		};
-		CEE8B43E265C998A007728F4 /* OpenSSL */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE985860265C703A00F9AAD4 /* XCRemoteSwiftPackageReference "OpenSSL" */;
 			productName = OpenSSL;
 		};
 /* End XCSwiftPackageProductDependency section */
